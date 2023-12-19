@@ -1,0 +1,93 @@
+/* body {
+    margin:0;
+   padding:0;
+   font-family:sans-serif;
+   box-sizing:border-box;
+  }
+
+  
+  .vessel{
+    width:100%;
+    min-height:100vh;
+   
+    background-color: rgb(193, 255, 255); 
+
+    background-image: linear-gradient(rgb(152 ,196 ,255,50%), rgb(0, 45, 135 , 50%), rgb(0 ,0, 0 , 50%)),url(hostel.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    padding:10px 8%;
+
+
+  }
+.button {
+    position: absolute;
+    top: 1;
+    right:0;
+   
+
+margin-top: 30px;
+margin-right: 60px;
+
+
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+    border:0;
+    outline:0;
+    border-radius:40px;5px
+    background: rgb(179, 222, 255);
+    color:#000000;
+    font-weight:500;
+    cursor:pointer;
+  } */
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(215, 226, 250);
+
+    display:block;
+}
+
+#role-heading {
+    margin: 20px 0;
+}
+
+#add-role-btn {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#entry-info {
+    margin: 10px 0;
+}
+
+#search-btn {
+    padding: 8px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.form-container {
+    margin-top: 20px;
+}
